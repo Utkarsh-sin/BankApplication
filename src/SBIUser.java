@@ -75,7 +75,7 @@ public class SBIUser implements BankInterface{
                 return "Insufficient Money";
             else{
                 balance = balance - amount;
-                return "Withdrawn successfull";
+                return "Withdrawn successful";
             }
         }
         else{
